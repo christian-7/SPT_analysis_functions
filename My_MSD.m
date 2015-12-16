@@ -55,9 +55,9 @@ end
 
 % Normalize since MSD calculated per frames / per pixel
 
-msd2(:,4)=msd2(:,2)/dt; %dx^2/dt;           % mean in ?m2/sec
+msd2(:,4)=msd2(:,2)/dt; % dx^2/dt;           % mean in ?m2/sec
 msd2(:,5)=msd2(:,1)*dt;                     % time in sec
-msd2(:,6)=msd2(:,3)/dt; %/dx^2/dt;          % std in ?m2/s
+msd2(:,6)=msd2(:,3)/dt; % dx^2/dt;          % std in ?m2/s
 
 
 
